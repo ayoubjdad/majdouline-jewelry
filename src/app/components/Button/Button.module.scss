@@ -1,0 +1,23 @@
+.container {
+  cursor: pointer;
+  width: fit-content;
+  font-family: inherit;
+  padding: 12px 26px;
+  border-radius: 60px;
+  border: 1px solid;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Phone Portrait */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  .container {
+    width: fit-content;
+    font-family: inherit;
+    padding: 8px 20px;
+    border-radius: 60px;
+    border: 1px solid;
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
